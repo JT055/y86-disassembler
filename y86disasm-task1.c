@@ -37,7 +37,7 @@ int main(int argc, char **argv)
     //TODO: From here, your task is to complete the implementation so that all y86 opcodes can be disassembled.
     //Any undisassembled opcode should display as "TODO: undisassembled opcode"
 
-//the code wokr by checking the first byte of the instruction and then using the if statment to display the correct opcode name for the byte.
+//the code works by checking the first byte of the instruction and then using the if statment to display the correct opcode name for the byte.
 if (instruction[0] == 0x00)
 {
   printf("halt\n");
